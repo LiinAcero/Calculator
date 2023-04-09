@@ -33,7 +33,7 @@
 .btnOperators{
     display: flex;
     flex-direction: column;
-    /* justify-content: right; */
+    justify-content: right;
     width: 50px;
 
 }
