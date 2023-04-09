@@ -6,3 +6,34 @@
     text-align: right;
     padding: 5px;
 }
+.fix2{
+    display: flex;
+    flex-direction: row;
+}
+.fix1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.btn123{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+} 
+.decimal0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60px;
+    
+}
+.btnOperators{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: right; */
+    width: 50px;
+
+}
