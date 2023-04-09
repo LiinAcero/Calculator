@@ -10,42 +10,42 @@
 </head>
 <body>
     <div id="screen"></div>
-    
+
     <div class="fix2">
         <div class="fix1">
             <div class="btn123">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
+                <button onclick="display(1)">1</button>
+                <button onclick="display(2)">2</button>
+                <button onclick="display(3)">3</button>
             </div>
 
             <div class="btn123">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
+                <button onclick="display(4)">4</button>
+                <button onclick="display(5)">5</button>
+                <button onclick="display(6)">6</button>
             </div>
 
             <div class="btn123">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
+                <button onclick="display(7)">7</button>
+                <button onclick="display(8)">8</button>
+                <button onclick="display(9)">9</button>
             </div>
         </div>
 
         
             <div class="btnOperators">
-                <button>+</button>
-                <button>-</button>
-                <button>/</button>
-                <button>x</button>
-                <button>=</button>
-                <button>clear</button>
+                <button onclick="display2('+')">+</button>
+                <button onclick="display2('-')">-</button>
+                <button onclick="display2('/')">/</button>
+                <button onclick="display2('*')">*</button>
+                <button onclick="display2('=')">=</button>
+                <button onclick="clear()">clear</button>
             </div>
     </div>
 
     <div class="decimal0">
-        <button>.</button>
-        <button>0</button>
+        <button onclick="display2('.')">.</button>
+        <button onclick="display(0)">0</button>
     </div>
 </body>
 </html>
