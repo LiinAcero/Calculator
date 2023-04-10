@@ -35,11 +35,15 @@ function calculate(){
     } else if(operator == '*'){
         equation = parseInt(number1) * parseInt(number2) 
     }
+    
+    number1 = equation; 
+    number2 = "";
+    operator = "";
     document.getElementById("screen").innerHTML = equation;
 }
 
 function empty(){
-    number1 = "";
+    // number1 = "";
     operator = "";
     number2 = "";
     updateScreen();
