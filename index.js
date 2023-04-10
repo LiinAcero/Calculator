@@ -25,7 +25,17 @@ function display2(opr){
 }
 
 function calculate(){
-    const i = 0;
+    let equation = 0;
+    if(operator == '+'){
+        equation = parseInt(number1) + parseInt(number2) 
+    } else if(operator == '-'){
+        equation = parseInt(number1) - parseInt(number2) 
+    } else if(operator == '/'){
+        equation = parseInt(number1) / parseInt(number2) 
+    } else if(operator == '*'){
+        equation = parseInt(number1) * parseInt(number2) 
+    }
+    document.getElementById("screen").innerHTML = equation;
 }
 
 function empty(){
